@@ -9,7 +9,7 @@
       <header class="header">
         <h1 id="title" class="text-center">Survey Form</h1>
         <p id="description" class="description text-center">
-          Thank you for taking the time to help us improve the platform
+          Thank you for taking the time to take this survey.
         </p>
       </header>
       <form id="survey-form">
@@ -50,19 +50,21 @@
           />
         </div>
         <div class="form-group">
-          <p>Which option best describes your current role?</p>
+          <p>What is your current role in the field of web development?</p>
           <select id="dropdown" name="role" class="form-control" required>
             <option disabled selected value>Select current role</option>
             <option value="student">Student</option>
-            <option value="job">Full Time Job</option>
-            <option value="learner">Full Time Learner</option>
-            <option value="preferNo">Prefer not to say</option>
+            <option value="job">Full-time developer</option>
+            <option value="learner">Freelancer</option>
+            <option value="preferNo">Project manager</option>
+            <option value="other">UX/UI designer</option>
+            <option value="other">Technical support</option>
             <option value="other">Other</option>
           </select>
         </div>
 
         <div class="form-group">
-          <p>Would you recommend to others to Study in Web Development?</p>
+          <p>Do you believe our Information Technology program, focusing on web technology, is well-equipped to prepare students for success in the industry?</p>
           <label>
             <input
               name="user-recommend"
@@ -92,19 +94,23 @@
         </div>
 
         <div class="form-group">
-          <p>What is your favorite topic of as a Web-Dev student?</p>
+          <p>What aspect of web development do you find most engaging?</p>
           <select id="most-like" name="mostLike" class="form-control" required>
             <option disabled selected value>Select an option</option>
-            <option value="challenges">Graphic Design</option>
-            <option value="projects">HTML & CSS</option>
-            <option value="community">Javascript</option>
-            <option value="openSource">Project Making</option>
+            <option value="challenges">Front-end development (HTML, CSS, JavaScript)</option>
+            <option value="projects">Back-end development (Node.js, Python, PHP)</option>
+            <option value="community">Full-stack development</option>
+            <option value="openSource">User interface (UI) design</option>
+            <option value="openSource">Mobile optimization </option>
+            <option value="openSource">Database management (SQL, MongoDB)</option>
+            <option value="openSource">User interface (UI) design</option>
+            <option value="openSource">Responsive web design</option>
           </select>
         </div>
 
         <div class="form-group">
           <p>
-            What else would you like to learn and improved?
+            What other topics or aspects would you like to learn more about or see enhancements in? 
             <span class="clue">(Check all that apply)</span>
           </p>
 
@@ -114,7 +120,7 @@
               value="front-end-projects"
               type="checkbox"
               class="input-checkbox"
-            />Front-end Projects</label
+            />Advanced CSS techniques</label
           >
           <label>
             <input
@@ -122,7 +128,7 @@
               value="back-end-projects"
               type="checkbox"
               class="input-checkbox"
-            />Back-end Projects</label
+            />API integration and development</label
           >
           <label
             ><input
@@ -130,7 +136,7 @@
               value="data-visualization"
               type="checkbox"
               class="input-checkbox"
-            />Data Visualization</label
+            />Web animation and interactivity</label
           >
           <label
             ><input
@@ -138,7 +144,7 @@
               value="challenges"
               type="checkbox"
               class="input-checkbox"
-            />Challenges</label
+            />Cloud computing and deployment</label
           >
           <label
             ><input
@@ -146,7 +152,7 @@
               value="open-source-community"
               type="checkbox"
               class="input-checkbox"
-            />Open Source Community</label
+            />Progressive web applications (PWAs)</label
           >
           <label
             ><input
@@ -154,7 +160,8 @@
               value="gitter-help-rooms"
               type="checkbox"
               class="input-checkbox"
-            />Gitter help rooms</label
+            />Debugging and troubleshooting skills
+            </label
           >
           <label
             ><input
@@ -162,7 +169,7 @@
               value="videos"
               type="checkbox"
               class="input-checkbox"
-            />Video Making</label
+            />Test-driven development (TDD)</label
           >
           <label
             ><input
@@ -170,7 +177,8 @@
               value="city-meetups"
               type="checkbox"
               class="input-checkbox"
-            />Graphic Designing</label
+            />Responsive design techniques
+            </label
           >
           <label
             ><input
@@ -178,7 +186,7 @@
               value="wiki"
               type="checkbox"
               class="input-checkbox"
-            />Interview Preparation</label
+            />Continuous integration/continuous deployment (CI/CD)</label
           >
           <label
             ><input
@@ -186,7 +194,7 @@
               value="forum"
               type="checkbox"
               class="input-checkbox"
-            />Forum</label
+            />Advanced performance optimization</label
           >
           <label
             ><input
@@ -194,7 +202,8 @@
               value="additional-courses"
               type="checkbox"
               class="input-checkbox"
-            />Additional Courses</label
+            />Frameworks and libraries (e.g., React, Bootstrap)
+            </label
           >
         </div>
 
