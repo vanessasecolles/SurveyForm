@@ -2,9 +2,8 @@
 
 :root {
   --color-white: #f3f3f3;
-  --color-darkblue: #271b32;
-  --color-darkblue-alpha: #0D7685;
-  --color-green: #0C4762;
+  --color-purple: #9376E0;
+  --color-darkpurple: #5D12D2;
 }
 
 *,
@@ -36,7 +35,7 @@ body::before {
       rgba(43, 75, 94, 0.8),
       rgba(1, 6, 8, 0.7)
     ),
-    url(img/download.jpg);
+    url(img/milad-fakurian-bexwsdM5BCw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,7 +117,7 @@ button {
 
 
 form {
-  background: var(--color-darkblue-alpha);
+  background: var(--color-purple);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
@@ -172,7 +171,7 @@ form {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-green);
+  background: var(--color-darkpurple);
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
